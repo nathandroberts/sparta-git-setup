@@ -1,0 +1,71 @@
+.container {
+  width: 1400px;
+  height: 1800px;
+}
+header {
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+.listLinks {
+  display: inline;
+}
+.background {
+  width: 100vw;
+  height: 100vw;
+  margin-left: -10px;
+}
+.mainBox {
+  margin-top: -1300px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 10px solid;
+  position: relative;
+  opacity: 0.8;
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+
+}
+.mainBoxText{
+  color: white;
+}
+.profileImageBox {
+  margin-right: 400px;
+  margin-top: -350px;
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  background-color: white;
+}
+.portfolioSpace {
+  background-color: white;
+  position: relative;
+  background-color: white;
+  width: 100vw;
+  height: 500px;
+}
+.portfolioItem {
+    height: 500px;
+    position: relative;
+    width: 300px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 87px;
+}
+footer {
+  text-align: center;
+  display: inline-block;
+  width: 100vw;
+  height: 50px;
+  background-color: gray;
+}
+@media screen and (max width 1300px) {
+  .mainBox {
+    margin-top: 200px;
+  }
+}
